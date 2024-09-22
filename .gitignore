@@ -1,0 +1,64 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Config files with sensitive data
+/wp-config.php
+/.htaccess
+
+# Ignore uploaded media
+/wp-content/uploads/
+
+# Ignore log files and error files
+*.log
+
+# Ignore backups and archives
+*.zip
+*.tar.gz
+*.sql
+# =============================
+# Ignore WordPress core directories
+/wp-admin/
+/wp-includes/
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+/wp-*.php
+/wp-content/themes/twentytwenty*
+/wp-content/plugins/*
+!/wp-content/plugins/your-custom-plugin/
+# Ignore uploads (media files)
+wp-content/uploads/
+# ====================
+# Node modules
+node_modules/
+.phpintel
+.sass-cache
+.scss-cache
+scss/.sass-cache/
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+.idea/
+_book
+nbproject
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+*.log
+npm-debug.log
+node_modules
+.DS_Store
+**/.DS_Store
+*.map
+.greyhr
+Thumbs.db
+sftp-config.json
+*.sublime-project
+*.sublime-workspace
